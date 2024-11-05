@@ -5,6 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/app/component/ui/card";
+import Particle from "./Particle";
 
 
 const Skill = () => {
@@ -118,7 +119,7 @@ const Skill = () => {
           <h3 className="text-blue-500 text-sm text-right  font-semibold tracking-tight">85%</h3>
          
         </div>
-  
+        <Particle/>
     </div>
 
 

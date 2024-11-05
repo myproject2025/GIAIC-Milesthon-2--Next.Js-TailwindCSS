@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from  "@/app/component/ui/card";
+import Particle from "./Particle";
 
 // @/app/component/ui/card
 
@@ -38,6 +39,7 @@ const Education = () => {
 
   return (
     <div>
+      
       <Card   data-aos="zoom-in" className="h-[85vh]  overflow-y-auto bg-slate-200 ">
         <CardHeader>
           <CardTitle className="text-2xl font-semibold tracking-tight uppercase">Education</CardTitle>
@@ -66,6 +68,8 @@ const Education = () => {
               </div>
             </div>
             ))}
+
+            <Particle/>
             
           </div>
         </CardContent>

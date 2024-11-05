@@ -5,6 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/app/component/ui/card";
+import Particle from "./Particle";
 
 
 
@@ -64,8 +65,9 @@ const Experience = () => {
               </div>
             </div>
             ))}
-            
+            <Particle/>
           </div>
+
         </CardContent>
       </Card>
     </div>

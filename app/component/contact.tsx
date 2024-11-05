@@ -5,6 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/app/component/ui/card";
+import Particle from "./Particle";
 
 const Contact = () => {
   return (
@@ -88,6 +89,7 @@ const Contact = () => {
                 Send
               </button>
             </div>
+            <Particle/>
           </div>
         </CardContent>
       </Card>

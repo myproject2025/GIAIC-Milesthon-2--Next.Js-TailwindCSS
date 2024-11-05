@@ -9,6 +9,7 @@ import {
 
 import Link from "next/link";
 import Image from 'next/image';
+import Particle from "./Particle";
 
 
 
@@ -100,7 +101,7 @@ const Project = () => {
         </div>
       </div>
       ))}
-     
+     <Particle/>
     </div>
  
 
